@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
+<title>Our Menu</title>
 <style>
 
 /********** Base styles **********/
@@ -17,11 +17,13 @@ h1 {
 }
 section {
   border: 1px solid black;
-  width: 95%;
-  height: 95%;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+  height: 150px;
+  overflow: auto;
   background-color: grey;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
   position: relative;
   margin-top: 10px;
 }
@@ -103,6 +105,7 @@ p {
 @media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
+    outline: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
